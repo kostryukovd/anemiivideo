@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+      <link href="https://vjs.zencdn.net/7.3.0/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/video.css">
+
+    <title>Видео</title>
+
+
+</head>
+
+
+<body>
+
+<div class="page">
+
+    <div class="header">
+        <div class="header-menu" onclick="expand_menu()">
+            <div class="header-menu__lines">
+
+                <div class="header-menu__line">
+                </div>
+                <div class="header-menu__line">
+                </div>
+                <div class="header-menu__line">
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <a href=#>
+                <img class="header-logo" src="img/logo_big.png">
+            </a>
+        </div>
+        <!--<div class="header-switch">
+            <div class="switch-specialists">
+                Специалистам
+            </div>
+            <div class="switch-line">
+            </div>
+            <div class="switch-patients">
+                Пациентам
+            </div>
+        </div>-->
+                    <div class = "header__switch">
+                        <a class = "switch-item switch-active">
+                            Специалистам
+                        </a>
+                        <a class = "switch-item " href = "index.html">
+                            Пациентам
+                        </a>
+
+                    </div>
+        <div class="contact-phone">
+            <a href="tel:+88005555579"><img class="pnone-img" src="img/call.svg">8 (800) 555 55 79</a>
+        </div>
+        <div class="contact-phone-hidden">
+            <a href="tel:+88005555579"><img class="phone-img" src="img/call.svg">
+            </a>
+        </div>
+
+
+        <div class="header_user-links">
+            <img src="img/login2.svg" class="log-img">
+            <div class="header-login">
+
+                <a href=#>ВХОД</a>
+            </div>
+            <div class="header-user_divider">
+            </div>
+            <img src="img/signin2.svg" class="log-img">
+            <div class="header-signin">
+
+                <a href=#>РЕГИСТРАЦИЯ</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="hidden-menu">
+    <ul class="hidden-menu-links">
+        <li><a href="">ПРЕПАРАТЫ</a></li>
+        <li><a href="">IHOSPITAL</a></li>
+        <li><a href="">ВИДЕОЛЕКЦИИ</a></li>
+        <li><a href="">МЕРОПРИЯТИЯ</a></li>
+        <li><a href="">СТАТЬИ</a></li>
+        <li><a class = "webinar-link" href="">ВЕБИНАР</a></li>
+
+    </ul>
+    <div class="hidden_user-links">
+        <img src="img/login2.svg" class="log-img">
+        <div class="hidden-login">
+
+            <a href=#>ВХОД</a>
+        </div>
+        <div class="hidden-user_divider">
+        </div>
+        <img src="img/signin2.svg" class="log-img">
+        <div class="hidden-signin">
+
+            <a href=#>РЕГИСТРАЦИЯ</a>
+        </div>
+    </div>
+</div>
+
+<div class="nav-menu">
+    <div class="page">
+        <ul class="nav-links">
+            <li><a href=#>ПРЕПАРАТЫ</a></li>
+            <li><a href=#>IHOSPITAL</a></li>
+            <li><a href=#>ВИДЕОЛЕКЦИИ</a></li>
+            <li><a href=#>МЕРОПРИЯТИЯ</a></li>
+            <li><a href=#>СТАТЬИ</a></li>
+            <li><a class = "webinar-link" href="">ВЕБИНАР</a></li>
+
+
+
+        </ul>
+    </div>
+</div>
+
+<div class = "page">
+
+    <a class = "back-link" href = "index.html">
+        <img src = "img/back.svg" alt = "<">
+        Видеолекции
+    </a>
+
+    <div class = "video-box">
+        
+        <div class = "video-date-header">
+        <h2 class = "video-box__header">Новые подходы к лечению анемии в онкологии</h2>
+        <span class = "video-box__date">29 июля 2018</span>
+    </div>
+        <p class = "video-box__text">В 1ом номере за 2012 год журнала «Современная онкология» была опубликована статья профессора кафедры онкологии и гематологии Российского...</p>
+         <video id="my-video" class="video-js" controls autoplay preload="auto" width="1104" height="618"
+  poster="" data-setup='{"fluid": true}'>
+            <source src="video/eriki.mp4" type='video/mp4'>
+            <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+
+    <div class = "video-box__social-links">
+        <span>Поделиться ссылкой</span>
+        <a href = ""><img src = "img/vk-social-logotype.svg"></a>
+        <a href = ""><img src = "img/facebook-logo-button.svg"></a>
+        <a href = ""><img src = "img/odnoklassniki-logo.svg"></a>
+    </div>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+<div class="footer-background">
+    <!--<img class = "blood4" src = "img/blood4.png">-->
+    <div class="page">
+        <div class="footer">
+            <div class="footer-img">
+                <a href=#> <img src="img/logo_small.png"></a>
+            </div>
+
+            <div class="footer-links">
+                <ul class="footer-list">
+                    <li><a href=#>Препараты</a></li>
+                    <li><a href=#>iHospital</a></li>
+                    <li><a href=#>Видеолекции</a></li>
+                    <li><a href=#>Мероприятия</a></li>
+                    <li><a href=#>Статьи</a></li>
+                    <li><a href=#>Вебинары</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li><a href=#>О портале</a></li>
+                    <li><a href=#>FAQ</a></li>
+                    <li><a href=#>Пациентам</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-contacts">
+                <div>
+                    <img src="img/takeda.png">
+                </div>
+                <div class="footer-address">
+                    <p>ООО «Такеда Фармасьютикалс»</p>
+                    <p>119048 Москва, ул. Усачёва дом 2, стр.1,</p>
+                    <p>Бизнес-центр «Фьюжн Парк».</p>
+                </div>
+                <div class="footer-copyright">
+                    2018 © Anemii.net Все права защищены
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/libs/jquery-3.3.1.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.3.0/video.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
